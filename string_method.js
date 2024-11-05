@@ -19,7 +19,7 @@ Example:
 // Example:
 let name = 'Arya Stark';
 name.charAt(2); //"y"
-let sentance = 'A quick brown fox jumped over a lazy dog';
+let sentance = 'A quick brown fox jumped over a lazy dog   ';
 sentance.charAt(4); // "i"
 let houseName = 'Starks';
 houseName.charAt(0); // "S"
@@ -30,7 +30,7 @@ houseName.charAt(0); // "S"
 // Return: it return the string (variable) into UpperCase string.
 
 // Example:
-let str1 = "time is money, so don't waste it.";
+let str1 = "time is money, so don't waste it .";
 console.log(str1.toUpperCase());
 let ironMan = "Tony Stark is ironman.";
 ironMan.toUpperCase();
@@ -53,9 +53,16 @@ let title1 = title.toUpperCase();
 console.log(title1);
 console.log(title1.toLowerCase());
 
-// Explanation:  
+// Explanation: method to convert the current string to new LowerCase string (string data type).
 
-// trim
+// 4. trim
+// Parameter: No Parameter Required
+// return: it remove the white spaces from start and from End.
+
+// Exp:
+let str4 = "   Honesty is the best Policy. ";
+str4.trim(); // "Honesty is the best policy."
+
 // trimEnd
 // trimStart
 // concat
